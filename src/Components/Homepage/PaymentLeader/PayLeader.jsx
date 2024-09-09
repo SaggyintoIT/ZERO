@@ -1,7 +1,12 @@
-import React from 'react';
-
+import {useEffect} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Make sure to import AOS styles
 
 const PayLeader = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []); // Empty dependency array ensures AOS.init runs only once when the component is mounted
+
   return (
     <section className="text-center counter-bg">
       <div className="container position-relative py-100">
@@ -15,7 +20,7 @@ const PayLeader = () => {
           </div>
         </div>
         <div className="shap"></div>
-        <div className="text-center px-40 mb-5" >
+        <div className="text-center px-40 mb-5" data-aos="fade-up" >
           <h2 className="fs-42 fw-bold mb-md-4 text-center">
             Partner with the payments leader
           </h2>

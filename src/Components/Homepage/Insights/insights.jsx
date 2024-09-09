@@ -1,4 +1,6 @@
-import React from 'react';
+import {useEffect} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Make sure to import AOS styles
 import insights1 from '../../../assets/Insights1.jpg';
 import insights2 from '../../../assets/Insights2.jpg';
 import insights3 from '../../../assets/Insights3.jpg';
@@ -6,8 +8,12 @@ import '../../../csss/style.css'; // Ensure path is correct
 import '../../../csss/bootstrap.min.css'; // Make sure this import doesn’t override your styles
 
 const FeaturedInsights = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []); // Empty dependency array ensures AOS.init runs only once when the component is mounted
+
   return (
-    <section className="bodypx ourworksection bg-white">
+    <section className="bodypx ourworksection bg-white" data-aos="fade-up">
       <div className="container px-md-1">
         <div className="linebg1 position-relative">
           <ul className="linebg2 whitelinebg m-0">

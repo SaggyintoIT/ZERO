@@ -1,4 +1,6 @@
-import React from 'react';
+import {useEffect} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Make sure to import AOS styles
 import Navbar from '../../Homepage/Navbar/Navbar';
 import mission from '../../../assets/mission.svg'
 import vision from '../../../assets/vision.svg'
@@ -12,6 +14,10 @@ import FaqSection from '../../Homepage/FAQ/FaqSection';
 import Footer from '../../Homepage/Footer/Footer';
 
 const AboutHeroSection = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []); // Empty dependency array ensures AOS.init runs only once when the component is mounted
+
   return (
     <>
     <Navbar/>
@@ -32,11 +38,11 @@ const AboutHeroSection = () => {
             </ul>
             <div className="row align-items-center mt-md-0 mt-3 pt-75 position-relative">
               <div className="col-md-12 tracking-in-expand">
-                <div className="w-100">
+                <div className="w-100" data-aos="fade-right">
                   <div className="header-content pb-md-5">
                     <h1 className="fs-42 color-3 pb-3">About Zerogateway</h1>
                     <span className="fs-30 text-white my-md-3 d-block">Who we are</span>
-                    <p className="" >
+                    <p className="" data-aos="zoom-in">
                       Zerogateway is the next-generation Payment Solutions Provider (PSP), offering a broad range of payment solutions to financial institutions, merchants, enterprises & consumers world-wide, with a vision of democratizing e-payments. Zerogateway aims to avail payment solutions to everyone, everywhere to pay & get paid!
                     </p>
                   </div>
@@ -63,21 +69,21 @@ const AboutHeroSection = () => {
           </ul>
 
           <div className="row align-items-md-center position-relative">
-            <div className="col-md-4 mb-4" >
+            <div className="col-md-4 mb-4" data-aos="fade-right">
               <div className="cta_1 appdevbg padding30 rounded24 text-start">
                 <img className="d-block" src={vision} alt="Vision" />
                 <span className="fs-30 fw-600 pt-2 pb-2 d-block">Vision</span>
                 <p>Present advertisements to your customers on the checkout page to promote your affiliate brands or your own business.</p>
               </div>
             </div>
-            <div className="col-md-4 mb-4" >
+            <div className="col-md-4 mb-4" data-aos="fade-up">
               <div className="cta_2 appdevbg padding30 rounded24 text-start">
                 <img className="d-block" src={mission} alt="Mission" />
                 <span className="fs-30 fw-600 pt-2 pb-2 d-block">Mission</span>
                 <p>Share the QR code of your payment handle on social media platforms, WhatsApp, SMS and receive instant payments.</p>
               </div>
             </div>
-            <div className="col-md-4 mb-4" >
+            <div className="col-md-4 mb-4" data-aos="fade-left">
               <div className="cta_3 appdevbg padding30 rounded24 text-start">
                 <img className="d-block" src={values} alt="Values" />
                 <span className="fs-30 fw-600 pt-2 pb-2 d-block">Values</span>
@@ -89,7 +95,7 @@ const AboutHeroSection = () => {
       </div>
     </section>
     <div className="container-fluid py-100 lightcrembg">
-      <div className="container" >
+      <div className="container" data-aos="fade-up">
         <div className="section-title pb-md-4">
           <h2 className="color-6">Leadership</h2>
         </div>

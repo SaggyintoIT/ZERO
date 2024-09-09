@@ -1,13 +1,19 @@
-import React from 'react';
+import {useEffect} from 'react';
 import paymentIcon from '../../../assets/Payment_icon.svg';
 import qrCodeIcon from '../../../assets/qrcode_icon.svg';
 import instantIcon from '../../../assets/Instant_icon.svg';
 import smartRouteIcon from '../../../assets/smartroute_icon.svg';
 import checkoutIcon from '../../../assets/Checkout_icon.svg';
 import apiAccessIcon from '../../../assets/APIAccess_icon.svg';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Make sure to import AOS styles
 
 
 const PaymentSolutionsSection = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []); // Empty dependency array ensures AOS.init runs only once when the component is mounted
+
   return (
     <section className="text-center">
       <div className="container">
@@ -17,8 +23,8 @@ const PaymentSolutionsSection = () => {
               <li key={idx}></li>
             ))}
           </ul>
-          <div className="text-center px-40 position-relative" >
-            <h2 className="fs-42 fw-bold mb-md-4 text-center">
+          <div className="text-center px-40 position-relative"data-aos="fade-up" >
+            <h2 className="fs-42 fw-bold mb-md-4 text-center" >
               Payment Solutions
             </h2>
             <p>

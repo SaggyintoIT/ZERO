@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Slider from 'react-slick';
 import logo1 from '../../../assets/logo_1.svg';
 import logo2 from '../../../assets/logo_2.svg';
@@ -7,21 +7,28 @@ import logo4 from '../../../assets/logo_4.svg';
 import logo5 from '../../../assets/logo_5.svg';
 import heropage from '../../../assets/illustration.svg';
 import '../../../csss/style.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Make sure to import AOS styles
 import { NavLink } from 'react-router-dom';
 
 // Slick Slider settings
 const sliderSettings = {
     slidesToShow: 5,
     slidesToScroll: 1,
-    autoplay: true, arrows: false,
+    autoplay: true,
+    arrows: false,
     dots: false,
-     autoplaySpeed: 0,
-   speed: 4000,
-   pauseOnHover: false,
+    autoplaySpeed: 0,
+    speed: 4000,
+    pauseOnHover: false,
     cssEase: 'linear',
 };
 
 const HeroSection = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []); // Empty dependency array ensures AOS.init runs only once when the component is mounted
+
   return (
     <section>
       <div className="bg-darkgreen" style={{ backgroundColor: '#004d40', color: '#fff' }}>
@@ -34,21 +41,20 @@ const HeroSection = () => {
             </ul>
             <div className="row align-items-center mt-md-0 mt-3 pt-75 position-relative">
               <div className="col-md-7 tracking-in-expand">
-                <div className="w-100">
+                <div className="w-100" data-aos="fade-right">
                   <div className="header-content pb-md-5">
                     <h1 className="fs-66 color-3" style={{ color: '#DEE965', zIndex: '1000' }}>
                       Accept free & unlimited payments with instant bank settlement
                     </h1>
-                    <p style={{ color: '#ccc', zIndex: '1000' }}>
+                    <p data-aos="zoom-in" style={{ color: '#ccc', zIndex: '1000' }}>
                       Unlock access to QR code, payment links, plugin, and APIs, enabling you to
                       seamlessly accept both free and unlimited payments. Experience instant bank
                       settlement while safeguarding against the risk of bank account freezes
                       through our proprietary smart route technology.
                     </p>
-                    <div className="mt-md-5 mt-3">
-                    <NavLink exact to="/SignUp" className="btn btn_2 me-2" >Sign up </NavLink> 
-                    <NavLink exact to="/Pricing" className="btn btn_w" >Start Accepting Payments </NavLink> 
-                    
+                    <div className="mt-md-5 mt-3" data-aos="zoom-in">
+                      <NavLink exact to="/SignUp" className="btn btn_2 me-2">Sign up</NavLink>
+                      <NavLink exact to="/Pricing" className="btn btn_w">Start Accepting Payments</NavLink>
                     </div>
                   </div>
                 </div>
@@ -57,6 +63,7 @@ const HeroSection = () => {
                 <img
                   className="imgph-w rounded30 my-4"
                   src={heropage}
+                  data-aos="fade-left"
                   alt="Illustration"
                   style={{ maxWidth: '100%', height: 'auto' }}
                 />
@@ -100,7 +107,6 @@ const HeroSection = () => {
                 </Slider>
               </div>
             </div>
-
           </div>
         </div>
       </div>

@@ -17,14 +17,9 @@ import './csss/slick-theme.css'
 import './csss/sScrollBar.css'
 import './csss/style.css'
 import './csss/swiper-bundle.min.css'
-import Navbar from './Components/Homepage/Navbar/Navbar';
-import HeroSection from './Components/Homepage/HeroSection/Hero';
-import PaymentSolutionsSection from './Components/Homepage/PaymentSoln/PaymentSoln';
-import PayLeader from './Components/Homepage/PaymentLeader/PayLeader';
-import TestimonialSection from './Components/Homepage/Testimonial/Testimonial';
-import FeaturedInsights from './Components/Homepage/Insights/insights';
-import FaqSection from './Components/Homepage/FAQ/FaqSection';
-import Footer from './Components/Homepage/Footer/Footer';
+import {useEffect} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Make sure to import AOS styles
 import AboutHeroSection from './Components/AboutUs/aboutUsHero/aboutUsHero';
 import Pricing from './Components/Pricing/Pricing';
 import Blog from './Components/Blog/Blog';
@@ -40,6 +35,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500, // Global animation duration (1.5 seconds)
+      once: true,     // Animations will occur only once
+     
+    });
+  }, []);
 
   return (
     <>
