@@ -71,3 +71,10 @@
     
   }
   
+  .btn_color{
+    border-radius: 26px;
+    background-color: transparent;
+    border: 1px solid #e8f5d1;
+    color: #e8f5d1;
+    transition: all .3s ease-in-out;
+  }

@@ -31,9 +31,9 @@ const HeroSection = () => {
 
   return (
     <section>
-      <div className="bg-darkgreen" style={{ backgroundColor: '#004d40', color: '#fff' }}>
-        <div className="container">
-          <div className="linebg1 py-100 position-relative">
+      <div className="bg-darkgreen w-full flex justify-center" style={{ backgroundColor: '#004d40', color: '#fff' }}>
+        <div className="w-10/12">
+          <div className="linebg1 pt-20 position-relative">
             <ul className="linebg2">
               {Array(9).fill(null).map((_, idx) => (
                 <li key={idx}></li>
@@ -41,7 +41,7 @@ const HeroSection = () => {
             </ul>
             <div className="row align-items-center mt-md-0 mt-3 pt-75 position-relative">
               <div className="col-md-7 tracking-in-expand">
-                <div className="w-100" data-aos="fade-right">
+                <div className="w-full" data-aos="fade-right">
                   <div className="header-content pb-md-5">
                     <h1 className="fs-66 color-3" style={{ color: '#DEE965', zIndex: '1000' }}>
                       Accept free & unlimited payments with instant bank settlement

@@ -4,12 +4,12 @@ import '../../../csss/bootstrap.min.css'
 
 const FaqSection = () => {
   return (
-    <section className="bodypx bg_blue py-100">
+    <section className="bodypx bg_blue py-[100px] pr-32 pl-32">
       <div className="container-fluid">
-        <div className="row">
+        <div className="flex flex-wrap -mx-4">
           <div className="container faqs">
-            <div className="col-md-12 pb-md-4 text-center text-md-start">
-              <h2 className="fs-42 fw-bold mb-md-3 text-white">FAQs</h2>
+            <div className="md:w-full md:pb-4 md:text-left">
+              <h2 className="text-[42px] font-bold md:mb-3 text-white">FAQs</h2>
             </div>
             <div className="accordion" id="accordionExample">
               <div className="accordion-item">

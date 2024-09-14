@@ -22,16 +22,16 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <div className=''>
       {/* Sidebar */}
-      <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
+      <div className= {`sidebar ${isSidebarOpen ? 'open' : ''}`} >
         <div className="sidebar-header">
           <NavLink to="/">
-            <img className="w-100 logo" src={logo} alt="Logo" />
+            <img className="w-full logo" src={logo} alt="Logo" />
           </NavLink>
           <button className="closebtn" onClick={toggleSidebar}>&times;</button>
         </div>
-        <ul className="sidebar-menu">
+        <ul className= "sidebar-menu">
           <li>
             <NavLink exact to="/" className="nav-link" activeClassName="active">Home</NavLink>
           </li>
@@ -56,9 +56,9 @@ const Navbar = () => {
         </ul>
       </div>
     
-      <div className="header intro closableBannerVisible" id="myHeader">
+      <div className="header intro closableBannerVisible " id="myHeader">
         <div>
-          <div className="container nav-px">
+          <div className="container nav-px pr-32 pl-32">
             <div className="mobile" id="linkid">
               <div id="mySidenav" className={`sidenav d-lg-flex ${isSidebarOpen ? 'open' : ''}`}>
                 <ul className="list-inline align-self-center accordion centerlogo d-lg-block d-none mb-0">

@@ -36,7 +36,7 @@ const TestimonialSection = () => {
   };
 
   return (
-    <section className="bodypx lightgreenbg Testimonial py-100 paddingleft">
+    <section className="bodypx lightgreenbg Testimonial py-[100px] paddingleft">
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-3 text-center">
