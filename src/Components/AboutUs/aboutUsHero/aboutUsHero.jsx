@@ -24,7 +24,7 @@ const AboutHeroSection = () => {
     <section className="">
       <div className="bg-darkgreen">
         <div className="container">
-          <div className="linebg1 py-100 position-relative">
+          <div className="linebg1 py-[100px] relative">
             <ul className="linebg2">
               <li></li>
               <li></li>
@@ -36,12 +36,12 @@ const AboutHeroSection = () => {
               <li></li>
               <li></li>
             </ul>
-            <div className="row align-items-center mt-md-0 mt-3 pt-75 position-relative">
-              <div className="col-md-12 tracking-in-expand">
-                <div className="w-100" data-aos="fade-right">
-                  <div className="header-content pb-md-5">
-                    <h1 className="fs-42 color-3 pb-3">About Zerogateway</h1>
-                    <span className="fs-30 text-white my-md-3 d-block">Who we are</span>
+            <div className="row align-center mt-md-0 mt-3 pt-75 relative pl-32 pr-24">
+              <div className="md:w-full tracking-in-expand">
+                <div className="w-full" data-aos="fade-right">
+                  <div className="header-content md:pb-5">
+                    <h1 className="text-[42px] color-3 pb-3">About Zerogateway</h1>
+                    <span className="text-[30px] text-white md:my-3 d-block">Who we are</span>
                     <p className="" data-aos="zoom-in">
                       Zerogateway is the next-generation Payment Solutions Provider (PSP), offering a broad range of payment solutions to financial institutions, merchants, enterprises & consumers world-wide, with a vision of democratizing e-payments. Zerogateway aims to avail payment solutions to everyone, everywhere to pay & get paid!
                     </p>
@@ -55,7 +55,7 @@ const AboutHeroSection = () => {
     </section>
     <section className="text-center">
       <div className="container">
-        <div className="linebg1 py-100 position-relative">
+        <div className="linebg1 py-100 relative">
           <ul className="linebg2 whitelinebg">
             <li></li>
             <li></li>
@@ -68,25 +68,25 @@ const AboutHeroSection = () => {
             <li></li>
           </ul>
 
-          <div className="row align-items-md-center position-relative">
-            <div className="col-md-4 mb-4" data-aos="fade-right">
-              <div className="cta_1 appdevbg padding30 rounded24 text-start">
+          <div className="row flex md:items-center relative pl-32 pr-32">
+            <div className="md:w-1/3 mb-4" data-aos="fade-right">
+              <div className="cta_1 appdevbg p-[30px] rounded-[24px] text-left">
                 <img className="d-block" src={vision} alt="Vision" />
-                <span className="fs-30 fw-600 pt-2 pb-2 d-block">Vision</span>
+                <span className="text-[30px] font-semibold pt-2 pb-2 d-block">Vision</span>
                 <p>Present advertisements to your customers on the checkout page to promote your affiliate brands or your own business.</p>
               </div>
             </div>
-            <div className="col-md-4 mb-4" data-aos="fade-up">
-              <div className="cta_2 appdevbg padding30 rounded24 text-start">
+            <div className="w-full md:w-1/3 mb-4" data-aos="fade-up">
+              <div className="cta_2 appdevbg p-[30px] rounded-[24px] text-start">
                 <img className="d-block" src={mission} alt="Mission" />
-                <span className="fs-30 fw-600 pt-2 pb-2 d-block">Mission</span>
+                <span className="text-[30px] font-semibold pt-2 pb-2 d-block">Mission</span>
                 <p>Share the QR code of your payment handle on social media platforms, WhatsApp, SMS and receive instant payments.</p>
               </div>
             </div>
             <div className="col-md-4 mb-4" data-aos="fade-left">
-              <div className="cta_3 appdevbg padding30 rounded24 text-start">
+              <div className="cta_3 appdevbg p-[30px] rounded-[24px] text-start">
                 <img className="d-block" src={values} alt="Values" />
-                <span className="fs-30 fw-600 pt-2 pb-2 d-block">Values</span>
+                <span className="text-[30px] font-semibold pt-2 pb-2 d-block">Values</span>
                 <p>Forget about settlement issues. All payments are processed and settled in real-time to ensure trust and improve cash flow.</p>
               </div>
             </div>
@@ -94,16 +94,16 @@ const AboutHeroSection = () => {
         </div>
       </div>
     </section>
-    <div className="container-fluid py-100 lightcrembg">
+    <div className="container-fluid py-[100px] lightcrembg pl-28 pr-28">
       <div className="container" data-aos="fade-up">
-        <div className="section-title pb-md-4">
-          <h2 className="color-6">Leadership</h2>
+        <div className="section-title pb-4 md:pb-4">
+          <h2 className="color-6 text-[40px]">Leadership</h2>
         </div>
         <div className="row">
-          <div className="col-md-3 col-sm-6 mt-md-0 mt-3">
+          <div className="w-full sm:w-1/2 md:w-1/4 mt-0 md:mt-0 mt-3">
             <div className="team-item bg-white overflow-hidden">
-              <div className="team-img position-relative overflow-hidden">
-                <img className="img-fluid w-100" src={leader1} alt="Waleed Sadek" />
+              <div className="team-img relative overflow-hidden">
+                <img className="img-fluid w-full" src={leader1} alt="Waleed Sadek" />
                 <div className="team-social">
                   <a className="socialicon" href="javascript:void(0);"><i className="fab fa-twitter fw-normal"></i></a>
                   <a className="socialicon" href="javascript:void(0);"><i className="fab fa-facebook-f fw-normal"></i></a>
@@ -111,17 +111,17 @@ const AboutHeroSection = () => {
                   <a className="socialicon" href="javascript:void(0);"><i className="fab fa-linkedin-in fw-normal"></i></a>
                 </div>
               </div>
-              <div className="p-md-4 p-3">
-                <h4 className="fs-24 mb-0">Waleed Sadek</h4>
-                <p className="mb-1 color-1 opacity-05">Founder & CEO</p>
+              <div className="p-3 md:p-4">
+                <h4 className="text-[24px] mb-0">Waleed Sadek</h4>
+                <p className="mb-1 color-1 opacity-5">Founder & CEO</p>
                 <p className="mb-0">Ex-Visa, Bitel</p>
               </div>
             </div>
           </div>
-          <div className="col-md-3 col-sm-6 mt-md-0 mt-3">
+          <div className="w-full sm:w-1/2 md:w-1/4 mt-0 md:mt-0 mt-3">
             <div className="team-item bg-white overflow-hidden">
-              <div className="team-img position-relative overflow-hidden">
-                <img className="img-fluid w-100" src={leader2} alt="Mohamed Hassan" />
+              <div className="team-img relative overflow-hidden">
+                <img className="img-fluid w-full" src={leader2} alt="Mohamed Hassan" />
                 <div className="team-social">
                   <a className="socialicon" href="javascript:void(0);"><i className="fab fa-twitter fw-normal"></i></a>
                   <a className="socialicon" href="javascript:void(0);"><i className="fab fa-facebook-f fw-normal"></i></a>
@@ -129,17 +129,17 @@ const AboutHeroSection = () => {
                   <a className="socialicon" href="javascript:void(0);"><i className="fab fa-linkedin-in fw-normal"></i></a>
                 </div>
               </div>
-              <div className="p-md-4 p-3">
+              <div className="md:p-4 p-3">
                 <h4 className="fs-24 mb-0">Mohamed Hassan</h4>
-                <p className="mb-1 color-1 opacity-05">COO</p>
+                <p className="mb-1 color-1 opacity-5">COO</p>
                 <p className="mb-0">Ex-Bitel, CityNet</p>
               </div>
             </div>
           </div>
-          <div className="col-md-3 col-sm-6 mt-md-0 mt-3">
+          <div className="w-full sm:w-1/2 md:w-1/4 mt-0 md:mt-0 mt-3">
             <div className="team-item bg-white overflow-hidden">
-              <div className="team-img position-relative overflow-hidden">
-                <img className="img-fluid w-100" src={leader3} alt="Sarah El Sokkary" />
+              <div className="team-img relative overflow-hidden">
+                <img className="img-fluid w-full" src={leader3} alt="Sarah El Sokkary" />
                 <div className="team-social">
                   <a className="socialicon" href="javascript:void(0);"><i className="fab fa-twitter fw-normal"></i></a>
                   <a className="socialicon" href="javascript:void(0);"><i className="fab fa-facebook-f fw-normal"></i></a>
@@ -147,17 +147,17 @@ const AboutHeroSection = () => {
                   <a className="socialicon" href="javascript:void(0);"><i className="fab fa-linkedin-in fw-normal"></i></a>
                 </div>
               </div>
-              <div className="p-md-4 p-3">
+              <div className="md:p-4 p-3">
                 <h4 className="fs-24 mb-0">Sarah El Sokkary</h4>
-                <p className="mb-1 color-1 opacity-05">CSO</p>
+                <p className="mb-1 color-1 opacity-5">CSO</p>
                 <p className="mb-0">Ex-Jumia, TPay</p>
               </div>
             </div>
           </div>
-          <div className="col-md-3 col-sm-6 mt-md-0 mt-3">
+          <div className="w-full sm:w-1/2 md:w-1/4 mt-0 md:mt-0 mt-3">
             <div className="team-item bg-light overflow-hidden">
-              <div className="team-img position-relative overflow-hidden">
-                <img className="img-fluid w-100" src={leader4} alt="Waheed Mozaffar" />
+              <div className="team-img relative overflow-hidden">
+                <img className="img-fluid w-full" src={leader4} alt="Waheed Mozaffar" />
                 <div className="team-social">
                   <a className="socialicon" href="javascript:void(0);"><i className="fab fa-twitter fw-normal"></i></a>
                   <a className="socialicon" href="javascript:void(0);"><i className="fab fa-facebook-f fw-normal"></i></a>
@@ -165,9 +165,9 @@ const AboutHeroSection = () => {
                   <a className="socialicon" href="javascript:void(0);"><i className="fab fa-linkedin-in fw-normal"></i></a>
                 </div>
               </div>
-              <div className="p-md-4 p-3">
-                <h4 className="fs-24 mb-0">Waheed Mozaffar</h4>
-                <p className="mb-1 color-1 opacity-05">CIO</p>
+              <div className="md:p-4 p-3">
+                <h4 className="text-[24px] mb-0">Waheed Mozaffar</h4>
+                <p className="mb-1 color-1 opacity-5">CIO</p>
                 <p className="mb-0">Ex-FH, UNB</p>
               </div>
             </div>

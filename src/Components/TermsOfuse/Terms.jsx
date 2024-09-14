@@ -9,12 +9,12 @@ export const Terms = () => {
 <section className="">
   <div className="bg-darkgreen">
     <div className="container">
-      <div className="linebg1 py-100 position-relative">
-        <div className="row align-items-center mt-md-0 mt-3 pt-75 position-relative">
-          <div className="col-md-12 tracking-in-expand">
-            <div className="w-100" >
+      <div className="linebg1 py-[100px] relative">
+        <div className="row items-center md:mt-0 mt-3 pt-75 relative">
+          <div className="w-full md:w-full tracking-in-expand">
+            <div className="w-full" >
               <div className="header-content text-center">
-                <h1 className="fs-66 color-3 pb-3" >
+                <h1 className="text-[66px] color-3 pb-3" >
                   Terms of Use
                 </h1>
               </div>
@@ -26,13 +26,13 @@ export const Terms = () => {
   </div>
 </section>
 
-<section className="sec-privacy py-100">
+<section className="sec-privacy py-[100px] px-32">
   <div className="privacy py-5">
     <div className="container">
-      <h2 className="font-26 mb-3" >
+      <h2 className="text-[42px] mb-3" >
         Terms of Use
       </h2>
-      <p className="font-18">
+      <p className="text-[18px]">
         Protecting personal information of their customers is a significant
         responsibility of any organization so, we consider it very sincerely.
         INDTechmark secures the privacy by providing transparency and choice

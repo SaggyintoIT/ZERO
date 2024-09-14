@@ -13,17 +13,17 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="login-body mb-0 "style={{ width:'100vw', height:'100vh'}}>
-      <div className="row login-outer g-0 h-100">
-        <div className="col-lg-6 login-gradient h-100 d-flex flex-column position-relative">
-          <div className="grcar d-flex justify-content-md-end align-items-center my-auto ms-auto">
+    <div className="login-body mb-0  "style={{ width:'100vw', height:'100vh'}}>
+      <div className="row login-outer g-0 h-full">
+        <div className="w-full lg:w-1/2 login-gradient h-full flex  justify-center item-center px-16">
+          <div className=" flex md:justify-center justify-center align-item-center my-auto ml-auto">
             <img className="full-height-image" src={loginleft} alt="Login Illustration" />
           </div>
         </div>
-        <div className="col-lg-6 d-flex align-items-center justify-content-center my-4 my-lg-0">
-          <div className="card login-form me-auto">
-            <div className="py-md-4 px-md-5 mx-md-3">
-              <div className="closebtn d-flex">
+        <div className="w-full lg:w-1/2 flex items-center justify-center my-4 my-lg-0">
+          <div className="card login-form me-auto px-7">
+            <div className="md:py-4 md:px-5 md:mx-3">
+              <div className="closebtn flex">
               <NavLink exact to="/"  className="m-auto color-6">
      
                   <i className="fas fa-times"></i>
@@ -36,7 +36,7 @@ const LoginPage = () => {
               </div>
               <form className="py-4">
                 <h4 className="heading py-2">Sign in</h4>
-                <div className="col-md-12">
+                <div className="w-full md:w-full">
                   <div className="form-floating mb-3 mt-3 field">
                     <input
                       type="text"
@@ -49,7 +49,7 @@ const LoginPage = () => {
                   </div>
                 </div>
 
-                <div className="col-md-12">
+                <div className="w-full">
                   <div className="form-floating mb-3 mt-3 field">
                     <span
                       onClick={togglePassword}
@@ -75,7 +75,7 @@ const LoginPage = () => {
                 <div className="loadmore pt-2 d-block">
                   <a
                     href="#"
-                    className="loadMorebtn d-flex justify-content-center mb-4 w-100 text-uppercase fw-bold"
+                    className="loadMorebtn flex justify-content-center mb-4 w-100 text-uppercase fw-bold"
                     type="button"
                   >
                     Sign in

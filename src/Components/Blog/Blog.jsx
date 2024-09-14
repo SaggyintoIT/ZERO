@@ -13,8 +13,8 @@ const Blog = () => {
     <Navbar/>
     <section className="">
       <div className="bg-darkgreen">
-        <div className="container">
-          <div className="linebg1 py-100 position-relative">
+        <div className="w-full">
+          <div className="linebg1 py-[100PX] relative">
             <ul className="linebg2">
               <li></li>
               <li></li>
@@ -26,11 +26,11 @@ const Blog = () => {
               <li></li>
               <li></li>
             </ul>
-            <div className="row align-items-center mt-md-0 mt-3 pt-75 position-relative">
-              <div className="col-md-12 tracking-in-expand">
-                <div className="w-100">
-                  <div className="header-content pb-md-5 text-center">
-                    <h1 className="fs-66 color-3 pb-3">Zerogateway Blogs</h1>
+              <div className="row align-center mt-4 md:mt-0 mt-3 pt-75 relative">
+              <div className="w-full md:w-full tracking-in-expand">
+                <div className="w-full">
+                  <div className="header-content pb-5 md:pb-5 text-center">
+                    <h1 className="text-[66px] color-3 pb-3">Zerogateway Blogs</h1>
                   </div>
                 </div>
               </div>
@@ -43,8 +43,8 @@ const Blog = () => {
 
 
     <section className="bodypx ourworksection bg-white">
-      <div className="container px-md-1">
-        <div className="linebg1 position-relative">
+      <div className="container px-1 md:px-1">
+        <div className="linebg1 relative">
           <ul className="linebg2 whitelinebg m-0">
             <li></li>
             <li></li>
@@ -56,49 +56,49 @@ const Blog = () => {
             <li></li>
             <li></li>
           </ul>
-          <div className="whitelinebg py-100">
+          <div className="whitelinebg py-[100px] px-32">
             <div className="row">
            
               <div className="pt-2 px-0">
                 <div className="row">
-                  <div className="col-md-4">
+                  <div className="md:w-1/3">
                     <div className="img-hover">
-                      <img className="w-100 inner-img" src={insights1} alt="Insight 1" />
+                      <img className="w-full inner-img" src={insights1} alt="Insight 1" />
                     </div>
                     <div className="Insights-text">
-                      <span className="fn-18 text-lgray3">March 25, 2024 | 6156 Views</span>
-                      <a href="javascript:void(0)" className="d-block fs-30 fw-600 my-1 color-1 hoverunderline">
+                      <span className="text-base text-lgray3">March 25, 2024 | 6156 Views</span>
+                      <a href="javascript:void(0)" className="d-block text-[30px] font-semibold my-1 color-1 hover:underline">
                         Passio.AI - An Edge AI Platform
                       </a>
-                      <p className="pe-md-4">
+                      <p className="md:pr-6">
                         How MindInventory contributed to the success of Passio - an edge AI platform, transforming the lifestyle.
                       </p>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div className="md:w-1/3">
                     <div className="img-hover">
-                      <img className="w-100 inner-img" src={insights2} alt="Insight 2" />
+                      <img className="w-full inner-img" src={insights1} alt="Insight 1" />
                     </div>
                     <div className="Insights-text">
-                      <span className="fn-18 text-lgray3">November 15, 2013 | 12705 Views</span>
-                      <a href="javascript:void(0)" className="d-block fs-30 fw-600 my-1 color-1 hoverunderline">
+                      <span className="text-base text-lgray3">March 25, 2024 | 6156 Views</span>
+                      <a href="javascript:void(0)" className="d-block text-[30px] font-semibold my-1 color-1 hover:underline">
                         Passio.AI - An Edge AI Platform
                       </a>
-                      <p className="pe-md-4">
+                      <p className="md:pr-6">
                         How MindInventory contributed to the success of Passio - an edge AI platform, transforming the lifestyle.
                       </p>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div className="md:w-1/3">
                     <div className="img-hover">
-                      <img className="w-100 inner-img" src={insights3} alt="Insight 3" />
+                      <img className="w-full inner-img" src={insights1} alt="Insight 1" />
                     </div>
                     <div className="Insights-text">
-                      <span className="fn-18 text-lgray3">May 25, 2024 | 6156 Views</span>
-                      <a href="javascript:void(0)" className="d-block fs-30 fw-600 my-1 color-1 hoverunderline">
+                      <span className="text-base text-lgray3">March 25, 2024 | 6156 Views</span>
+                      <a href="javascript:void(0)" className="d-block text-[30px] font-semibold my-1 color-1 hover:underline">
                         Passio.AI - An Edge AI Platform
                       </a>
-                      <p className="pe-md-4">
+                      <p className="md:pr-6">
                         How MindInventory contributed to the success of Passio - an edge AI platform, transforming the lifestyle.
                       </p>
                     </div>
@@ -107,49 +107,49 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="whitelinebg py-100">
+          <div className="whitelinebg py-[100px] px-32">
             <div className="row">
            
               <div className="pt-2 px-0">
                 <div className="row">
-                  <div className="col-md-4">
+                <div className="md:w-1/3">
                     <div className="img-hover">
-                      <img className="w-100 inner-img" src={insights1} alt="Insight 1" />
+                      <img className="w-full inner-img" src={insights1} alt="Insight 1" />
                     </div>
                     <div className="Insights-text">
-                      <span className="fn-18 text-lgray3">March 25, 2024 | 6156 Views</span>
-                      <a href="javascript:void(0)" className="d-block fs-30 fw-600 my-1 color-1 hoverunderline">
+                      <span className="text-base text-lgray3">March 25, 2024 | 6156 Views</span>
+                      <a href="javascript:void(0)" className="d-block text-[30px] font-semibold my-1 color-1 hover:underline">
                         Passio.AI - An Edge AI Platform
                       </a>
-                      <p className="pe-md-4">
+                      <p className="md:pr-6">
                         How MindInventory contributed to the success of Passio - an edge AI platform, transforming the lifestyle.
                       </p>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div className="md:w-1/3">
                     <div className="img-hover">
-                      <img className="w-100 inner-img" src={insights2} alt="Insight 2" />
+                      <img className="w-full inner-img" src={insights1} alt="Insight 1" />
                     </div>
                     <div className="Insights-text">
-                      <span className="fn-18 text-lgray3">November 15, 2013 | 12705 Views</span>
-                      <a href="javascript:void(0)" className="d-block fs-30 fw-600 my-1 color-1 hoverunderline">
+                      <span className="text-base text-lgray3">March 25, 2024 | 6156 Views</span>
+                      <a href="javascript:void(0)" className="d-block text-[30px] font-semibold my-1 color-1 hover:underline">
                         Passio.AI - An Edge AI Platform
                       </a>
-                      <p className="pe-md-4">
+                      <p className="md:pr-6">
                         How MindInventory contributed to the success of Passio - an edge AI platform, transforming the lifestyle.
                       </p>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div className="md:w-1/3">
                     <div className="img-hover">
-                      <img className="w-100 inner-img" src={insights3} alt="Insight 3" />
+                      <img className="w-full inner-img" src={insights1} alt="Insight 1" />
                     </div>
                     <div className="Insights-text">
-                      <span className="fn-18 text-lgray3">May 25, 2024 | 6156 Views</span>
-                      <a href="javascript:void(0)" className="d-block fs-30 fw-600 my-1 color-1 hoverunderline">
+                      <span className="text-base text-lgray3">March 25, 2024 | 6156 Views</span>
+                      <a href="javascript:void(0)" className="d-block text-[30px] font-semibold my-1 color-1 hover:underline">
                         Passio.AI - An Edge AI Platform
                       </a>
-                      <p className="pe-md-4">
+                      <p className="md:pr-6">
                         How MindInventory contributed to the success of Passio - an edge AI platform, transforming the lifestyle.
                       </p>
                     </div>
@@ -158,49 +158,49 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="whitelinebg py-100">
+          <div className="whitelinebg py-[100px] px-32">
             <div className="row">
            
               <div className="pt-2 px-0">
                 <div className="row">
-                  <div className="col-md-4">
+                <div className="md:w-1/3">
                     <div className="img-hover">
-                      <img className="w-100 inner-img" src={insights1} alt="Insight 1" />
+                      <img className="w-full inner-img" src={insights1} alt="Insight 1" />
                     </div>
                     <div className="Insights-text">
-                      <span className="fn-18 text-lgray3">March 25, 2024 | 6156 Views</span>
-                      <a href="javascript:void(0)" className="d-block fs-30 fw-600 my-1 color-1 hoverunderline">
+                      <span className="text-base text-lgray3">March 25, 2024 | 6156 Views</span>
+                      <a href="javascript:void(0)" className="d-block text-[30px] font-semibold my-1 color-1 hover:underline">
                         Passio.AI - An Edge AI Platform
                       </a>
-                      <p className="pe-md-4">
+                      <p className="md:pr-6">
                         How MindInventory contributed to the success of Passio - an edge AI platform, transforming the lifestyle.
                       </p>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div className="md:w-1/3">
                     <div className="img-hover">
-                      <img className="w-100 inner-img" src={insights2} alt="Insight 2" />
+                      <img className="w-full inner-img" src={insights1} alt="Insight 1" />
                     </div>
                     <div className="Insights-text">
-                      <span className="fn-18 text-lgray3">November 15, 2013 | 12705 Views</span>
-                      <a href="javascript:void(0)" className="d-block fs-30 fw-600 my-1 color-1 hoverunderline">
+                      <span className="text-base text-lgray3">March 25, 2024 | 6156 Views</span>
+                      <a href="javascript:void(0)" className="d-block text-[30px] font-semibold my-1 color-1 hover:underline">
                         Passio.AI - An Edge AI Platform
                       </a>
-                      <p className="pe-md-4">
+                      <p className="md:pr-6">
                         How MindInventory contributed to the success of Passio - an edge AI platform, transforming the lifestyle.
                       </p>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div className="md:w-1/3">
                     <div className="img-hover">
-                      <img className="w-100 inner-img" src={insights3} alt="Insight 3" />
+                      <img className="w-full inner-img" src={insights1} alt="Insight 1" />
                     </div>
                     <div className="Insights-text">
-                      <span className="fn-18 text-lgray3">May 25, 2024 | 6156 Views</span>
-                      <a href="javascript:void(0)" className="d-block fs-30 fw-600 my-1 color-1 hoverunderline">
+                      <span className="text-base text-lgray3">March 25, 2024 | 6156 Views</span>
+                      <a href="javascript:void(0)" className="d-block text-[30px] font-semibold my-1 color-1 hover:underline">
                         Passio.AI - An Edge AI Platform
                       </a>
-                      <p className="pe-md-4">
+                      <p className="md:pr-6">
                         How MindInventory contributed to the success of Passio - an edge AI platform, transforming the lifestyle.
                       </p>
                     </div>

@@ -9,13 +9,13 @@ export const Contactus = () => {
     <Navbar/>
     <section className="">
     <div className="bg-darkgreen">
-      <div className="container">
-        <div className="linebg1 py-100 position-relative">
-          <div className="row align-items-center mt-md-0 mt-3 pt-75 position-relative">
+      <div className="w-full">
+        <div className="linebg1 py-[100px] relative">
+          <div className="row align-center md:mt-0 mt-3 pt-75 relative">
             <div className="col-md-12 tracking-in-expand">
               <div className="w-100">
-                <div className="header-content pb-md-5 text-center">
-                  <h1 className="fs-66 color-3 pb-3">
+                <div className="header-content md:pb-20 text-center">
+                  <h1 className="text-[66px] color-3 pb-3">
                     The Zerogateway team is here <br /> to help you
                   </h1>
                   <p data-aos="zoom-in">
@@ -29,11 +29,11 @@ export const Contactus = () => {
       </div>
     </div>
   </section>
-  <section className="body-section py-100">
+  <section className="body-section py-[100px] px-36">
   <div className="container">
-    <div className="row about-text align-self-center">
-      <div className="col-lg-6 contectform">
-        <h2 className="color-1">
+    <div className="row about-text align-center">
+      <div className="lg:w-1/2 contectform">
+        <h2 className="color-1 text-[42px]">
           Can’t find what you need? Send us a message
         </h2>
         <p className="py-4">"This field is required" indicates required fields</p>
@@ -101,17 +101,17 @@ export const Contactus = () => {
         </div>
       </div>
 
-      <div className="col-lg-5 ms-auto">
+      <div className="lg:w-5/12 ms-auto">
         <div className="process-desc mx-auto text-start">
           <div className="con-address mt-3">
             <div className="foo-address pb-2">
-              <h2 className="color-1">Office Hours</h2>
+              <h2 className="color-1 text-[42px]">Office Hours</h2>
               <p>
                 Mon – Fri:<br />
                 08:00 – 17:00 (GMT +2)
               </p>
 
-              <h2 className="color-1 mt-md-5 mt-2">Contact Details</h2>
+              <h2 className="color-1 md:mt-5 mt-2 text-[42px]">Contact Details</h2>
               <p>
                 <a
                   className="color-1 text-decoration-none"

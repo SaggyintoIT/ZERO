@@ -23,16 +23,16 @@ const Pricing = () => {
               <li></li>
               <li></li>
             </ul>
-            <div className="row align-items-center mt-md-0 mt-3 pt-75 position-relative">
-              <div className="col-md-12 tracking-in-expand">
+            <div className="row align-center mt-md-0 mt-3 pt-75 relative pl-32 pr-24">
+              <div className="w-full md:w-full tracking-in-expand">
               
                 <div className="row">
-                  <div className="col-xl-9 col-md-8">
-                    <span className="text-white fs-42 fw-100 d-block">
+                  <div className="w-full md:w-2/3 xl:w-3/4">
+                    <span className="text-white text-[42px] font-thin d-block">
                       Start for free,<br />
                       Pick a plan later.
                     </span>
-                    <div className="text-white d-flex fs-24 fw-600 mt-20 align-items-center">
+                    <div className="text-white flex text-24 font-semibold mt-5 items-center">
                       <span>Monthly billing</span>
                       <span className="px-3 switchbutton">
                         <div className="form-check form-switch form-switch-lg">
@@ -45,10 +45,10 @@ const Pricing = () => {
                   </div>
                   <div className="col-xl-3 col-md-4 d-flex flex-column mt-md-0 mt-4">
                     <div className="ms-auto">
-                      <h2 className="text-white fw-600">3 Days Trial</h2>
-                      <span className="lightcrem fs-24 fw-600">No credit card required. Cancel anytime</span>
-                      <span className="text-white fs-24 fw-600 mt-4 d-block">Upgrade as you grow</span>
-                      <p className="mt-2 text-white fs-17">
+                      <h2 className="text-white font-semibold">3 Days Trial</h2>
+                      <span className="lightcrem text-[24px] font-semibold">No credit card required. Cancel anytime</span>
+                      <span className="text-white text-[24px] font-semibold mt-4 d-block">Upgrade as you grow</span>
+                      <p className="mt-2 text-white text-[17px]">
                         3-day trial gives you a free account, upgrade the same account when your trial period ends.
                       </p>
                     </div>
@@ -60,12 +60,12 @@ const Pricing = () => {
         </div>
       </div>
     </section>
-    <section className="bodypx py-100">
-      <div className="container">
+    <section className="bodypx py-[100px] px-28">
+      <div className="w-full">
         <div className="row">
-          <div className="col-md-12">
+          <div className="w-full md:w-full">
             <div className="table-responsive-md invoicecereen">
-              <table className="price-table w-100">
+              <table className="price-table w-full">
                 <thead>
                   <tr className="price-table-head">
                     <td>4,999 QR Code Request</td>
@@ -164,13 +164,13 @@ const Pricing = () => {
                   <tr>
                     <td></td>
                     <td className="price">
-                      <a href="#" className="btn btn_2 tablebtn1 w-100 mt-3">Buy Now</a>
+                      <a href="#" className="btn btn_2 tablebtn1 w-full mt-3">Buy Now</a>
                     </td>
                     <td className="price">
-                      <a href="#" className="btn btn_2 tablebtn2 w-100 mt-3">Buy Now</a>
+                      <a href="#" className="btn btn_2 tablebtn2 w-full mt-3">Buy Now</a>
                     </td>
                     <td className="price">
-                      <a href="#" className="btn btn_2 tablebtn3 w-100 mt-3">Buy Now</a>
+                      <a href="#" className="btn btn_2 tablebtn3 w-full mt-3">Buy Now</a>
                     </td>
                   </tr>
                 </tfoot>

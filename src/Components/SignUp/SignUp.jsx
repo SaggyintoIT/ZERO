@@ -39,16 +39,16 @@ const SignUpPage = () => {
 
   return (
     <div className="login-body mb-0" >
-      <div className="row login-outer g-0 h-100" >
-        <div className="col-lg-6 login-gradient h-100 d-flex flex-column position-relative" >
-          <div className="grcar d-flex justify-content-md-end align-items-center my-auto ms-auto" style={{ height:'100vh'}}>
-            <img className="me-md-5 pe-md-5 full-height-image" src={loginlefts} alt="Sign Up Illustration" />
+      <div className="row login-outer g-0 h-full" >
+        <div className="w-full lg:w-1/2 login-gradient h-full flex flex-col relative" >
+          <div className="grcar  flex md:justify-end items-center my-auto ms-auto" style={{ height:'100vh'}}>
+            <img className="md:mr-12 md:pr-12 full-height-image" src={loginlefts} alt="Sign Up Illustration" />
           </div>
         </div>
-        <div className="col-lg-6 d-flex align-items-center justify-content-center my-4 my-lg-0">
-          <div className="card login-form me-auto">
-            <div className="py-md-4 px-md-5 mx-md-3">
-              <div className="closebtn d-flex">
+        <div className="w-full lg:w-1/2 d-flex align-items-center justify-content-center my-4 my-lg-0">
+          <div className="card login-form me-auto px-10">
+            <div className="md:py-4 md:px-5 md:mx-3">
+              <div className="closebtn flex">
               <NavLink exact to="/"  className="m-auto color-6">
      
      <i className="fas fa-times"></i>
@@ -60,8 +60,8 @@ const SignUpPage = () => {
                 </a>
               </div>
               <form className="py-4">
-                <h4 className="heading py-2">Sign up</h4>
-                <div className="col-md-12">
+                <h4 className="heading py-2 text-[24px]">Sign up</h4>
+                <div className="w-full">
                   <div className="form-floating mb-3 mt-3 field">
                     <input
                       type="text"
@@ -74,7 +74,7 @@ const SignUpPage = () => {
                   </div>
                 </div>
 
-                <div className="col-md-12">
+                <div className="w-full">
                   <div className="form-floating mb-3 mt-3 field">
                     <input
                       type="text"
@@ -87,11 +87,11 @@ const SignUpPage = () => {
                   </div>
                 </div>
 
-                <div className="col-md-12">
+                <div className="w-full">
                   <div className="form-floating mb-3 mt-3 field">
                     <input
                       type="text"
-                      className="form-control f-16 rounded-3 h50"
+                      className="form-control text-[16px] rounded-md h-[50px]"
                       id="PhoneNumber"
                       placeholder="Enter Your Phone Number*"
                       name="Your Phone Number*"
@@ -100,7 +100,7 @@ const SignUpPage = () => {
                   </div>
                 </div>
 
-                <div className="col-md-12">
+                <div className="w-full">
                   <div className="form-floating mb-3 mt-3 field">
                     <span
                       onClick={togglePassword}
@@ -109,7 +109,7 @@ const SignUpPage = () => {
                     ></span>
                     <input
                       type={passwordVisible ? 'text' : 'password'}
-                      className="form-control fn-Inter f-16 rounded-3 h50"
+                      className="form-control fn-Inter text-[16px] rounded-md h-[50px]"
                       id="password-field"
                       placeholder="Enter Your Password*"
                       name="Your Password*"
@@ -130,9 +130,9 @@ const SignUpPage = () => {
 
                 <div className="g-recaptcha" data-sitekey="6LcU5F8pAAAAAGnT92v5YNRrcYr7ILas4P7VcYRu"></div>
 
-                <div className="loadmore pt-2 d-block">
+                <div className="loadmore pt-2 block">
                 <NavLink exact to="/ThankYou" 
-                 className="loadMorebtn d-flex justify-content-center mb-4 w-100 text-uppercase fw-bold"
+                 className="loadMorebtn flex justify-center mb-4 w-full text-uppercase fw-bold"
                  type="button"> Sign Up</NavLink> 
                   
                 </div>

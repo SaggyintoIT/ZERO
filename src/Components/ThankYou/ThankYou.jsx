@@ -6,9 +6,9 @@ import { NavLink } from 'react-router-dom'
 const ThankYou = () => {
   return (
     <>
-    <div className="row login-outer g-0 h-100">
-  <div className="col-lg-6 login-gradient h-100 d-flex flex-column position-relative">
-    <div className="grcar d-flex justify-content-md-end align-items-center my-auto ms-auto" style={{height:'100vh'}}>
+    <div className="row login-outer g-0 h-full">
+  <div className="col-lg-6 login-gradient h-full flex flex-col relative">
+    <div className="grcar flex justify-content-md-end align-center my-auto ms-auto" style={{height:'100vh'}}>
       <img className="me-md-5 pe-md-5" src={left} alt="" />
     </div>
   </div>

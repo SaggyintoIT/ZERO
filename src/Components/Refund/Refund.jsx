@@ -7,14 +7,14 @@ export const Refund = () => {
     <>
     <Navbar/>
     <section className="">
-  <div className="bg-darkgreen">
+  <div className="bg-darkgreen ">
     <div className="container">
-      <div className="linebg1 py-100 position-relative">
-        <div className="row align-items-center mt-md-0 mt-3 pt-75 position-relative">
-          <div className="col-md-12 tracking-in-expand">
-            <div className="w-100" >
+      <div className="linebg1 py-[100px] relative">
+        <div className="row align-items-center md:mt-0 mt-3 pt-[75px] relative">
+          <div className="w-full md:w-full tracking-in-expand">
+            <div className="w-full" >
               <div className="header-content text-center">
-                <h1 className="fs-66 color-3 pb-3" >
+                <h1 className="text-[66px] color-3 pb-3" >
                   Refund Policy
                 </h1>
               </div>
@@ -26,13 +26,13 @@ export const Refund = () => {
   </div>
 </section>
 
-<section className="sec-privacy py-100">
+<section className="sec-privacy py-[100px] px-32">
   <div className="privacy">
     <div className="container">
-      <h2 className="font-26 mb-3" >
+      <h2 className="text-[42px] mb-3" >
         Refund Policy
       </h2>
-      <p className="font-18" >
+      <p className="text-[18px]" >
         Protecting personal information of their customers is a significant
         responsibility of any organization so, we consider it very sincerely.
         INDTechmark secures the privacy by providing transparency and choice
@@ -46,10 +46,10 @@ export const Refund = () => {
         any changes.
       </p>
 
-      <h2 className="font-26 mb-md-3 mt-md-5 mb-2 mt-3" >
+      <h2 className="text-[42px] md:mb-3 md:mt-5 mb-2 mt-3" >
         Understanding Refund Policies
       </h2>
-      <p className="font-18" >
+      <p className="text-[18px]" >
         Refund policies are critical components of customer service and
         business operations. They dictate how businesses handle returns and
         refunds, impacting customer satisfaction and loyalty. As consumers
@@ -57,17 +57,17 @@ export const Refund = () => {
         understanding and navigating refund policies becomes crucial for both
         businesses and customers.
       </p>
-      <p className="font-18" >
+      <p className="text-[18px]" >
         This article aims to demystify refund policies, exploring their various
         types, legal requirements, and best practices for both businesses and
         customers. By comprehending these policies, consumers can make informed
         decisions, and businesses can foster trust and ensure legal compliance.
       </p>
 
-      <h2 className="font-26 mb-md-3 mt-md-5 mb-2 mt-3" >
+      <h2 className="text-[42px] md:mb-3 md:mt-5 mb-2 mt-3" >
         Legal Aspects of Refund Policies
       </h2>
-      <p className="font-18 mb-4" >
+      <p className="text-[18px] mb-4" >
         Understanding the legal framework surrounding refund policies is
         crucial for both businesses and consumers. In many jurisdictions, laws
         mandate specific refund rights for consumers, such as the right to a
