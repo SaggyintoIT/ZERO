@@ -23,12 +23,12 @@ const Pricing = () => {
               <li></li>
               <li></li>
             </ul>
-            <div className="row align-center mt-md-0 mt-3 pt-75 relative pl-32 pr-24">
+            <div className="row align-center mt-md-0 mt-3 pt-75 relative pl-32 pr-24 pricing">
               <div className="w-full md:w-full tracking-in-expand">
               
                 <div className="row">
-                  <div className="w-full md:w-2/3 xl:w-3/4">
-                    <span className="text-white text-[42px] font-thin d-block">
+                  <div className="w-full md:w-2/3 xl:w-3/4 sm:text-[24px]">
+                    <span className="text-white text-[42px] sm:text-[24px] font-thin d-block pricing-head">
                       Start for free,<br />
                       Pick a plan later.
                     </span>
@@ -60,7 +60,7 @@ const Pricing = () => {
         </div>
       </div>
     </section>
-    <section className="bodypx py-[100px] px-28">
+    <section className="bodypx py-[100px] px-28 mid-price">
       <div className="w-full">
         <div className="row">
           <div className="w-full md:w-full">

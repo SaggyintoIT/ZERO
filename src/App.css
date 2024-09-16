@@ -886,6 +886,7 @@
     animation-delay: 0s;
     animation-duration: 18s;
     }
+  
     .circles li:nth-child(5) {
     left: 65%;
     width: 20px;
@@ -1235,6 +1236,98 @@
         -moz-column-count: 1;
         /* Firefox */
         column-count: 1;
+      }
+    }
+    @media (max-width:900px){
+      .pricing{
+        padding: 0 !important;
+      }
+    }
+
+    @media (max-width:720px){
+      .ourworksection{
+        padding: 0 !important;
+      }
+      .nav-px{
+        padding: 0 !important;
+      }
+
+      .pricing{
+        padding: 0 !important;
+      }
+      .mid-price{
+        padding: 0px !important;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+      }
+
+      .Testimonial{
+        padding: 0 !important;
+        overflow: hidden;
+        padding-top: 1rem !important;
+       
+        height: 50rem;
+
+      }
+      .LeaderShip{
+        padding: 0px !important;
+      }
+      .testimonial_box{
+      
+        padding-right: 3rem;
+      }
+      .testimonial-slider{
+      
+        
+      }
+      .Myfaq{
+        padding: 2rem !important;
+      }
+      .whitelinebg h2{
+        margin-bottom: 2rem;
+        
+      }
+      .parain{
+        margin-bottom: 2rem;
+      }
+      .BottomIns{
+        margin-bottom: 4rem;
+      }
+    }
+
+
+
+    @media (max-width:1023px){
+      .ourworksection{
+        padding: 3rem !important;
+      }
+    }
+    @media (max-width:574px){
+      .pricing{
+        padding-top: 5rem !important;
+      }
+      .pricing-head{
+        font-size: 24px !important;
+      }
+    }
+    
+    .Testimonial{
+      padding: 0 !important;
+      overflow: hidden;
+      padding-top: 6rem !important;
+     
+      height: 50rem;
+
+    }
+    .testimonial_box{
+      
+      padding-right: 3rem;
+    }
+
+    @media (max-width:500px){
+
+      .Myfaq{
+        padding: 1rem !important;
       }
     }
     

@@ -13,7 +13,7 @@ const FeaturedInsights = () => {
   }, []); // Empty dependency array ensures AOS.init runs only once when the component is mounted
 
   return (
-    <section className="bodypx ourworksection bg-white pl-36 pr-36" data-aos="fade-up">
+    <section className="bodypx ourworksection bg-white px-36 " data-aos="fade-up">
       <div className="container px-md-1">
         <div className="linebg1 relative">
           <ul className="linebg2 whitelinebg m-0">
@@ -31,13 +31,13 @@ const FeaturedInsights = () => {
             <div className="row">
               <div className="md:w-full text-center">
                 <h2 className="text-[42px] font-bold md:mb-3 text-center">Featured Insights</h2>
-                <p className="md:pr-4">
+                <p className="md:pr-4 parain">
                   Explore our featured technology insights on news boards that are popular among our readers.
                 </p>
               </div>
               <div className="pt-2 px-0">
                 <div className="row">
-                  <div className="md:w-1/3">
+                  <div className="md:w-1/3 BottomIns">
                     <div className="img-hover">
                       <img className="w-full inner-img" src={insights1} alt="Insight 1" />
                     </div>
@@ -51,7 +51,7 @@ const FeaturedInsights = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="md:w-1/3">
+                  <div className="md:w-1/3 BottomIns">
                     <div className="img-hover">
                       <img className="w-full inner-img" src={insights2} alt="Insight 2" />
                     </div>
@@ -65,7 +65,7 @@ const FeaturedInsights = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="md:w-1/3">
+                  <div className="md:w-1/3 BottomIns">
                     <div className="img-hover">
                       <img className="w-full inner-img" src={insights3} alt="Insight 3" />
                     </div>

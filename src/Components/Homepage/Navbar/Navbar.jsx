@@ -58,7 +58,7 @@ const Navbar = () => {
     
       <div className="header intro closableBannerVisible " id="myHeader">
         <div>
-          <div className="container nav-px pr-32 pl-32">
+          <div className="container nav-px px-32">
             <div className="mobile" id="linkid">
               <div id="mySidenav" className={`sidenav d-lg-flex ${isSidebarOpen ? 'open' : ''}`}>
                 <ul className="list-inline align-self-center accordion centerlogo d-lg-block d-none mb-0">

@@ -53,7 +53,7 @@ const HeroSection = () => {
                       through our proprietary smart route technology.
                     </p>
                     <div className="mt-md-5 mt-3" data-aos="zoom-in">
-                      <NavLink exact to="/SignUp" className="btn btn_2 me-2">Sign up</NavLink>
+                      <NavLink exact to="/SignUp" className="btn btn_2 me-2 w-36">Sign up</NavLink>
                       <NavLink exact to="/Pricing" className="btn btn_w">Start Accepting Payments</NavLink>
                     </div>
                   </div>

@@ -4,7 +4,7 @@ import '../../../csss/bootstrap.min.css'
 
 const FaqSection = () => {
   return (
-    <section className="bodypx bg_blue py-[100px] pr-32 pl-32">
+    <section className="bodypx bg_blue py-[100px] px-32 Myfaq">
       <div className="container-fluid">
         <div className="flex flex-wrap -mx-4">
           <div className="container faqs">
